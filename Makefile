@@ -1,5 +1,7 @@
-CXX		  := clang++
-CXX_FLAGS := -Wall -Wextra -std=c++17 -g
+TARGET = prog
+LIBS = -lm
+CC = gcc
+CFLAGS = -g -Wall
 
 BIN		:= bin
 SRC		:= src
